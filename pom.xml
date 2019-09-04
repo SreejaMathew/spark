@@ -129,7 +129,7 @@
     <hbase.version>0.98.7-hadoop2</hbase.version>
     <hbase.artifact>hbase</hbase.artifact>
     <flume.version>1.6.0</flume.version>
-    <zookeeper.version>3.4.5</zookeeper.version>
+    <zookeeper.version>3.5.5</zookeeper.version>
     <curator.version>2.4.0</curator.version>
     <hive.group>org.spark-project.hive</hive.group>
     <!-- Version used in Maven Hive dependency -->
@@ -396,7 +396,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>14.0.1</version>
+        <version>24.1.1-android</version>
         <scope>provided</scope>
       </dependency>
       <!-- End of shaded deps -->
@@ -1407,7 +1407,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1420,7 +1420,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1433,7 +1433,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1574,7 +1574,7 @@
             </goals>
             <configuration>
               <target>
-                <mkdir dir="${project.build.directory}/tmp" />
+                <mkdir dir="${project.build.directory}/tmp"/>
               </target>
             </configuration>
           </execution>
@@ -1734,7 +1734,7 @@
       <properties>
         <hadoop.version>2.6.0</hadoop.version>
         <jets3t.version>0.9.3</jets3t.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <zookeeper.version>3.5.5</zookeeper.version>
         <curator.version>2.6.0</curator.version>
       </properties>
     </profile>
@@ -1753,7 +1753,7 @@
         <hadoop.version>1.0.3-mapr-3.0.3</hadoop.version>
         <yarn.version>2.4.1-mapr-1408</yarn.version>
         <hbase.version>0.98.4-mapr-1408</hbase.version>
-        <zookeeper.version>3.4.5-mapr-1406</zookeeper.version>
+        <zookeeper.version>3.5.5</zookeeper.version>
       </properties>
     </profile>
 
@@ -1763,7 +1763,7 @@
         <hadoop.version>2.4.1-mapr-1408</hadoop.version>
         <yarn.version>2.4.1-mapr-1408</yarn.version>
         <hbase.version>0.98.4-mapr-1408</hbase.version>
-        <zookeeper.version>3.4.5-mapr-1406</zookeeper.version>
+        <zookeeper.version>3.5.5</zookeeper.version>
       </properties>
       <dependencies>
         <dependency>
