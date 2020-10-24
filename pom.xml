@@ -396,7 +396,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>14.0.1</version>
+        <version>30.0-android</version>
         <scope>provided</scope>
       </dependency>
       <!-- End of shaded deps -->
@@ -1407,7 +1407,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1420,7 +1420,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1433,7 +1433,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1574,7 +1574,7 @@
             </goals>
             <configuration>
               <target>
-                <mkdir dir="${project.build.directory}/tmp" />
+                <mkdir dir="${project.build.directory}/tmp"/>
               </target>
             </configuration>
           </execution>
