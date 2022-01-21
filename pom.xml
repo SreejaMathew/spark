@@ -126,7 +126,7 @@
     <hadoop.version>2.2.0</hadoop.version>
     <protobuf.version>2.5.0</protobuf.version>
     <yarn.version>${hadoop.version}</yarn.version>
-    <hbase.version>0.98.7-hadoop2</hbase.version>
+    <hbase.version>0.98.8-hadoop1</hbase.version>
     <hbase.artifact>hbase</hbase.artifact>
     <flume.version>1.6.0</flume.version>
     <zookeeper.version>3.4.5</zookeeper.version>
@@ -1407,7 +1407,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1420,7 +1420,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1433,7 +1433,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1574,7 +1574,7 @@
             </goals>
             <configuration>
               <target>
-                <mkdir dir="${project.build.directory}/tmp" />
+                <mkdir dir="${project.build.directory}/tmp"/>
               </target>
             </configuration>
           </execution>
@@ -1700,7 +1700,7 @@
       <properties>
         <hadoop.version>1.2.1</hadoop.version>
         <protobuf.version>2.4.1</protobuf.version>
-        <hbase.version>0.98.7-hadoop1</hbase.version>
+        <hbase.version>0.98.8-hadoop1</hbase.version>
         <avro.mapred.classifier>hadoop1</avro.mapred.classifier>
         <codehaus.jackson.version>1.8.8</codehaus.jackson.version>
         <akka.group>org.spark-project.akka</akka.group>
@@ -1752,7 +1752,7 @@
       <properties>
         <hadoop.version>1.0.3-mapr-3.0.3</hadoop.version>
         <yarn.version>2.4.1-mapr-1408</yarn.version>
-        <hbase.version>0.98.4-mapr-1408</hbase.version>
+        <hbase.version>0.98.8-hadoop1</hbase.version>
         <zookeeper.version>3.4.5-mapr-1406</zookeeper.version>
       </properties>
     </profile>
@@ -1762,7 +1762,7 @@
       <properties>
         <hadoop.version>2.4.1-mapr-1408</hadoop.version>
         <yarn.version>2.4.1-mapr-1408</yarn.version>
-        <hbase.version>0.98.4-mapr-1408</hbase.version>
+        <hbase.version>0.98.8-hadoop1</hbase.version>
         <zookeeper.version>3.4.5-mapr-1406</zookeeper.version>
       </properties>
       <dependencies>
